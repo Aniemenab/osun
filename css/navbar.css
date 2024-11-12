@@ -207,6 +207,67 @@ body.offcanvas-menu:before {
     color: #2e5ebe;
 }
 
+/* ================DROPDOWN=============== */
+.dropbtn {
+    margin-top: -4px;
+    margin-left: 6px;
+    color: black;
+    border: none;
+    font-size: 18px;
+
+}
+
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+    /* background-color: red; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2A65DB;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width:900px) {
+    .dropbtn {
+        color: black;
+        border: none;
+        font-size: 18px;
+        display: inline-block;
+        margin-left: 20px;
+    }
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    color: black;
+}
+
 /* ======================================== */
 .head2_mainbody {
     width: 100%;
