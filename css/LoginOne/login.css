@@ -1,0 +1,496 @@
+body {
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===============LOGIN====================== */
+.login_main_body {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+
+}
+
+.login_body {
+    width: 100%;
+    height: auto;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.login_info {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+}
+
+.login_info_top_text {
+    width: auto;
+    height: auto;
+    padding-left: 2rem;
+    /* background-color: red; */
+}
+
+.login_info_text {
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    /* padding: 0rem 0 0 1rem; */
+}
+
+.login_info_text h3 {
+    font-size: 2rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+.wave_img {
+    width: auto;
+    height: auto;
+    /* background-color: darkmagenta; */
+    margin: 2.3rem 0 0 1.2rem;
+}
+
+.wave_img img {
+    width: 100%;
+}
+
+.login_info_text_bottom {
+    width: 100%;
+    height: auto;
+    font-family: "Montserrat Alternates", sans-serif;
+    /* background-color: saddlebrown; */
+    padding: 0 0 0 1rem;
+    margin-top: -.3rem;
+}
+
+/* ============================== */
+
+.login_input_main_body {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(38, 0, 255); */
+    padding-top: 2rem;
+}
+
+.login_input_body {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* background-color: rgb(11, 184, 147); */
+}
+
+/* ========== INPUT EFFECT=========== */
+:focus {
+    outline: none;
+}
+
+.up {
+    margin-top: 2.9rem;
+}
+
+.col-3 {
+    width: 78%;
+    /* margin: 40px 3%; */
+
+    position: relative;
+    margin: auto;
+
+}
+
+/* necessary to give position: relative to parent. */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.effect-22,
+.effect-23,
+.effect-24 {
+    border: 0;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    position: relative;
+    background: transparent;
+}
+
+.effect-22~.focus-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: transparent;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.effect-22:focus~.focus-bg,
+.has-content.effect-22~.focus-bg {
+    transition: 0.4s;
+    width: 100%;
+    background-color: #ededed;
+}
+
+.effect-22~label {
+    position: absolute;
+    left: 14px;
+    width: 100%;
+    top: 10px;
+    color: #aaa;
+    transition: 0.3s;
+    z-index: -1;
+    letter-spacing: 0.5px;
+}
+
+.effect-22:focus~label,
+.has-content.effect-22~label {
+    top: -18px;
+    left: 0;
+    font-size: 12px;
+    color: #333;
+    transition: 0.3s;
+}
+
+/* ===================================== */
+.login_button_body {
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    padding-top: 2rem;
+    margin: auto;
+    cursor: pointer;
+}
+
+.login_botton {
+    width: 90px;
+    height: auto;
+    border-radius: 15px;
+    background-color: #2A65DB;
+    /* margin: auto; */
+    padding: .1rem;
+    font-family: lato;
+    text-align: center;
+    margin-top: 1.3rem;
+    margin: auto;
+}
+
+.login_botton h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.forgot_body {
+    width: 350px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.forgot_body p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.login_other_means_body {
+    width: 100%;
+    height: auto;
+    /* background-color: darkmagenta; */
+}
+
+.login_other_means {
+    width: auto;
+    height: auto;
+    /* background-color: dodgerblue; */
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.means {
+    width: 75%;
+    height: 60px;
+    border: 1px solid #2A65DB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    transition: .2s ease-out;
+    margin: auto;
+
+}
+.means:hover {
+    transition: .2s ease-in;
+    box-shadow: 8px 0px 16px 0px rgba(0, 0, 0, 0.46);
+}
+
+.up {
+    margin-top: 2rem;
+}
+
+.mean_img {
+    width: 35px;
+    height: 40px;
+    /* background-color: darkgray; */
+    margin-top: .6rem;
+}
+
+.mean_img img {
+    width: 40px;
+}
+
+.means_text {
+    margin: 0rem 0 0 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+
+.sign_up_body {
+    width: 100%;
+    height: 100px;
+    /* background-color: darkorange; */
+    padding: .1rem 0 0 0;
+    text-align: center;
+}
+
+.sign_up {
+    width: 200px;
+    height: auto;
+    /* background-color: gray; */
+    margin: auto;
+    padding: 1rem;
+}
+
+.sign_up p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-decoration: underline;
+}
+
+/* ========================= */
+
+.login_img {
+    width: 100%;
+    height: auto;
+    /* background-color: gold; */
+}
+
+.login_img img {
+    width: 100%;
+}
+
+/* ===============END OF LOGIN ONE=============== */
+
+
+/* ========================LOGIN TWO============= */
+.login_two {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.login_two_input_body {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+}
+
+.login_two_input {
+    width: 75%;
+    padding-top: 5rem;
+    height: auto;
+    /* background-color: darkblue; */
+    margin: auto;
+}
+
+.login_two_input .login_other_means_body {
+    margin-top: 2rem;
+}
+
+.login_two_input .means {
+    width: 70%;
+}
+
+.Loginpagetext {
+    padding-top: 20rem;
+    text-align: center;
+}
+
+.Loginpagetext h3,
+.Loginpagetext p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.Loginpagetext a {
+
+    text-decoration: underline;
+}
+
+/* ================================ */
+.login_three {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1.6rem;
+    /* background-color: green; */
+}
+
+.login_three_input_mainbody {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-top: 1rem;
+}
+.Input_name{
+    width: 100%;
+    height: auto;
+    /* background-color: greenyellow; */
+}
+.Input_name p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.login_three_input {
+    width: 60%;
+    height: auto;
+    /* background-color: fuchsia; */
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.login_three_input .login_input_body2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+ /* background-color: chocolate; */
+}
+
+.login_three_input .col-3 {
+    margin: 0;
+    width: 80%;
+    height: auto;
+    /* background-color: rgb(157, 0, 255); */
+   
+}
+.side {
+    margin-left: 1rem !important;
+}
+.login_three_input input {
+    width: 100%;
+}
+
+.login_three_input .col-4 {
+    width: 100%;
+    /* margin: 40px 3%; */
+    margin: auto;
+    position: relative;
+    /* background-color: orange; */
+}
+.login_three_input .col-4 input {
+    width: 100%;
+}
+/* ================================ */
+.login_photo_mainbody{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+.login_photo_body{
+    width: 80%;
+    height: auto;
+    /* background-color: green; */
+    margin: auto;
+    padding-top: 3rem;
+    
+}
+.photobody{
+    width: 350px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: auto;
+}
+.photobody img{
+    width: 70%;
+    /* height: 100%; */
+}
+.photoSelection_body{
+    width: 100%;
+    height: auto;
+    padding-top: 3rem;
+    /* background-color: orange; */
+
+}
+.photoSelection{
+    width:350px;
+    height: 50px;
+    /* background-color: saddlebrown; */
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid #2A65DB;
+    padding-bottom: 6px;
+    border-radius: 5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+.photoSelection:hover{
+    transition: .2s ease-in;
+    box-shadow: 8px 0px 16px 0px rgba(0, 0, 0, 0.46);
+}
+.photoicon_img{
+    width: 40px;
+    height: auto;
+    /* background-color: grey; */
+    padding-top: 10px;
+}
+.phototext{
+    width: 200px;
+    height: 50px;
+    /* background-color: orangered; */
+    padding-left: 2rem;
+}
+.phototext h3{
+    /* margin-top: 0; */
+    font-family: "Lato", sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    color: black;
+}
+.upp{
+    margin-top: 3rem;
+}

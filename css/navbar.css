@@ -1,0 +1,269 @@
+body {
+    /* background-color: #fff; */
+    position: relative;
+    margin: 0;
+}
+
+.comot {
+    clear: both;
+}
+
+:focus {
+    outline: none;
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+body.offcanvas-menu:before {
+    opacity: 1;
+    z-index: 1002;
+    visibility: visible;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+
+
+/* 
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+} */
+
+/* ======================NAVBAR================ */
+.site-navbar {
+    margin-bottom: 0px;
+    z-index: 1999;
+    position: relative;
+    /* top: 0; */
+    width: 100%;
+    /* padding: 1rem; */
+}
+
+.site-navbar .toggle-button {
+    position: absolute;
+    right: 0px;
+}
+
+.site-navbar .site-logo {
+    margin-top: -20px;
+    padding: 0;
+    font-size: 4rem;
+}
+
+.site-navbar .site-logo a {
+    font-family: "Playfair", serif;
+    /* font-weight: ; */
+    font-weight: 700;
+    font-style: normal;
+    color: #2A65DB;
+}
+
+@media (max-width: 991.98px) {
+    .site-navbar .site-logo {
+        float: left;
+        position: relative;
+    }
+}
+
+.site-navbar .site-navigation.border-bottom {
+    border-bottom: 1px solid white !important;
+}
+
+.site-navbar .site-navigation .site-menu {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+    /* background-color: gray; */
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.site-navbar .site-navigation .site-menu .active {
+    color: #89ba16 !important;
+}
+
+.site-navbar .site-navigation .site-menu a {
+    text-decoration: none !important;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.site-navbar .site-navigation .site-menu>li {
+    display: inline-block;
+}
+
+.site-navbar .site-navigation .site-menu>li>a {
+    /* margin-left: 24px;
+    margin-right: 24px; */
+    padding: 19px 10px;
+    color: #000 !important;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.site-navbar .site-navigation .site-menu>li>a:hover {
+    color: #89ba16;
+}
+
+.site-navbar .site-navigation .site-menu>li.active>a {
+    color: #89ba16 !important;
+}
+
+.site-navbar .site-navigation .site-menu .has-children {
+    position: relative;
+}
+
+.site-navbar .site-navigation .site-menu .has-children>a {
+    position: relative;
+    padding-right: 20px;
+}
+
+.site-navbar .site-navigation .site-menu .has-children>a:before {
+    position: absolute;
+    content: "\e313";
+    font-size: 16px;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'icomoon';
+}
+
+.site-navbar .site-navigation .site-menu .has-children:hover>a,
+.site-navbar .site-navigation .site-menu .has-children:focus>a,
+.site-navbar .site-navigation .site-menu .has-children:active>a {
+    color: #89ba16;
+}
+
+.site-navbar .site-navigation .site-menu .has-children:hover,
+.site-navbar .site-navigation .site-menu .has-children:focus,
+.site-navbar .site-navigation .site-menu .has-children:active {
+    cursor: pointer;
+}
+
+
+
+.navbar_body {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-bottom: 1.3rem;
+    border-bottom: 2px solid #2A65DB;
+}
+
+.nav_link_body {
+    width: auto;
+    height: auto;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.nav_icon {
+    width: auto;
+    height: 36px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.nav_icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav_text {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+}
+
+.nav_text:hover {
+    color: #2e5ebe;
+}
+
+/* ======================================== */
+.head2_mainbody {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-top: 1rem;
+}
+
+.head2_body {
+    width: 75%;
+    height: auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_mainbody {
+    width: auto;
+    height: auto;
+    /* background-color: orchid; */
+    padding: 1rem 0 0 2rem;
+
+}
+
+.input_body {
+    width: 260px;
+    height: 50px;
+    border: 1px groove black;
+    padding: .4rem 0 0 10px;
+
+    background-color: white;
+    border-radius: 10px;
+}
+
+.input_body input {
+    border: none;
+}
+
+.input_body i {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.Logo {
+    width: 500px;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+.Logo h1 {
+    font-size: 4rem;
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ===================END OF NAVBAR========================= */
+
+
+/* ====================homepage============================ */

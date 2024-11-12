@@ -1,0 +1,1015 @@
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.home_mainbody {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+}
+
+.home_body {
+    width: 100%;
+    height: 550px;
+    /* background-color: rebeccapurple; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homepage_text_body {
+    width: 80%;
+    height: auto;
+    /* background-color: orange; */
+    margin: auto;
+    padding-top: 10rem;
+
+}
+
+.homepage_text_body h1 {
+    font-size: 4rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.homepage_text_body p {
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.homepage_button {
+    width: 220px;
+    height: auto;
+    padding: .6rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #2A65DB;
+    text-align: center;
+    transition: ease-in-out .2s;
+}
+
+.homepage_button:hover {
+    background-color: white;
+}
+
+.homepage_button h3 {
+    font-size: 22px;
+}
+
+.homepage_button:hover h3 {
+    color: #2A65DB;
+    transition: ease-in-out .2s;
+}
+
+/* ======================================= */
+
+.how_workbody {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-top: 2rem;
+}
+
+.how_work_text {
+    width: 100%;
+    height: auto;
+    /* background-color: bisque; */
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.how_work_text h1 {
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.how_work {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.work_item_body {
+    width: 33%;
+    height: auto;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.work_item_text {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+}
+
+.work_item_text h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.work_botton {
+    width: 130px;
+    height: 50px;
+    /* background-color: gray; */
+    padding: .6rem;
+    border-radius: 10px;
+    border: 1px solid #2A65DB;
+    text-align: center;
+}
+
+.work_botton:hover {
+    background-color: #2A65DB;
+
+}
+
+.work_botton:hover p {
+    color: white;
+}
+
+.work_botton p {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work_item_img {
+    width: 100%;
+    height: auto;
+}
+
+.work_item_img img {
+    width: 100%;
+  
+}
+
+.WorkgetCode_body {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.WorkgetCode_body .getCode {
+    width: 160px;
+    height: 60px;
+    background-color: #2A65DB;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: ease .2s;
+}
+
+.WorkgetCode_body .getCode:hover {
+    background-color: white;
+    box-shadow: 4px 2px 20px 1px rgba(0, 0, 0, 0.281);
+    transition: ease .2s;
+
+}
+
+.WorkgetCode_body .getCode p {
+    font-size: 19px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.WorkgetCode_body .getCode:hover p {
+
+    color: #2A65DB;
+}
+
+/* ============================= */
+.instantCode_body {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.instantCode_body h1 {
+    font-size: 4.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.instantCode_body p {
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.instantCode_body .getCode {
+    width: 130px;
+}
+
+/* ===================================== */
+.whatCanDo_body {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    padding: 5rem 2rem;
+}
+
+.cando_text {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    text-align: center;
+    /* background-color: orange; */
+}
+
+.cando_text h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cando_itembody {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cando_item {
+    width: 50%;
+    height: auto;
+    /* background-color: fuchsia; */
+    display: flex;
+    padding: 1rem;
+    /* justify-content: space-between; */
+}
+
+.cando_item_text_body {
+    width: 55%;
+    height: auto;
+    /* background-color: blue; */
+}
+
+.cando_item_text_body h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cando_item_text_body p {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+}
+
+.cando_item_img_body {
+    width: 40%;
+    height: auto;
+    /* background-color: chocolate; */
+}
+
+.cando_item_img_body img {
+    width: 100%;
+}
+
+.cus {
+    margin-top: 5rem;
+}
+
+/* ================================== */
+
+.findyour_Code {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-bottom: 2rem;
+}
+
+.find_text_body {
+    width: 70%;
+    height: auto;
+    /* background-color: green; */
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.find_text_body h1 {
+    font-size: 3.5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+}
+
+.findCode_input_mainbody {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+    padding: 2.5rem 0 2rem 0;
+}
+
+.find_input_body {
+    width: 60%;
+    height: auto;
+    /* background-color: purple; */
+    display: flex;
+    margin: auto;
+
+}
+
+.find_input {
+    width: 100%;
+    height: auto;
+    /* background-color: darkblue; */
+    display: flex;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    background-color: white;
+    box-shadow: 3px 4px 20px 2px rgba(0, 0, 0, 0.281);
+}
+
+.findcode_input {
+    width: 80%;
+    margin-left: 10px;
+}
+
+.findcode_input input {
+    width: 100%;
+    border: none;
+    padding: 4px;
+}
+
+.find_button {
+    width: 160px;
+    height: 60px;
+    padding: 13px;
+    background-color: #2A65DB;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 3px 4px 20px 2px rgba(0, 0, 0, 0.281);
+    text-align: center;
+    cursor: pointer;
+}
+
+.find_button:hover {
+    background-color: #083183;
+}
+
+.find_button p {
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+/* ================================== */
+.newsLetter_body {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 2rem 0 2rem 0;
+}
+
+.new_head_text {
+    width: 100%;
+    height: auto;
+    /* background-color: purple; */
+    text-align: center;
+}
+
+.new_head_text p {
+    font-size: 23px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.newsLetter_body .find_input_body {
+    padding-top: 2rem;
+}
+
+/* ========================================== */
+.footer_body {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 2rem;
+}
+
+.footer {
+    width: 80%;
+    height: auto;
+    /* background-color: green; */
+    margin: auto;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+.footer_logo_text {
+    width: 60%;
+    height: auto;
+    /* background-color: red; */
+    padding: 1rem;
+}
+
+.footer_logo_text h1 a {
+    /* font-size: 1rem; */
+    font-family: "Playfair", serif;
+    color: white;
+    transition: ease-out .2s;
+}
+
+.footer_logo_text h1 a:hover {
+    color: #2A65DB;
+    transition: ease-in .2s;
+}
+
+.footer_nav_link {
+    width: 50%;
+    height: 100px;
+    /* background-color: darkblue; */
+    display: flex;
+}
+
+.footer_nav_link a {
+    padding: 1.4rem;
+    font-size: 19px;
+    color: white;
+    font-family: "Lato", sans-serif;
+}
+
+.footer_nav_link a:hover {
+    color: #2A65DB;
+}
+
+/* =============================================== */
+
+/* =================================MY CODE ========================= */
+.myCodeBody {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+
+}
+
+.unqicode_body {
+    width: 100%;
+    height: auto;
+    /* background-color: orange; */
+    display: flex;
+}
+
+.firstUniq {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.unq_head_body {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.unq_head_text {
+    width: 60%;
+    height: auto;
+    /* background-color: firebrick; */
+    display: flex;
+}
+
+.unq_head_text img {
+    width: 40px;
+    height: 40px;
+    margin-top: 1px;
+}
+
+.unq_head_add {
+    width: 20px;
+    height: auto;
+    /* background-color: darkgoldenrod; */
+}
+
+.unq_head_add i {
+    font-size: 20px;
+}
+
+.uniqInfo_body {
+    width: 48%;
+    height: auto;
+    background-color: white;
+    border-radius: 6px;
+    padding: 1rem;
+    box-shadow: 6px 8px 21px 1px rgba(0, 0, 0, 0.281);
+}
+
+.uniq_textbody {
+    width: 100%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.uni_text {
+    width: 230px;
+    height: auto;
+    /* background-color: brown; */
+}
+
+.uni_text h4 {
+    font-size: 23px;
+}
+
+.uni_text :is(h4, p) {
+    /* color:green; */
+
+    font-family: "Lato", sans-serif;
+}
+
+.uni_sharebody {
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    text-align: center;
+    /* padding: 1rem; */
+}
+
+.uniqShare {
+    width: 100px;
+    height: auto;
+    background-color: whitesmoke;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .2s ease-out;
+}
+
+.uniqShare:hover {
+    background-color: #083183;
+    color: white;
+    transition: .2s ease-in;
+}
+
+.secondUniq {
+    width: 54%;
+    height: auto;
+    /* background-color: rebeccapurple; */
+}
+
+.secondUniq .unq_head_text {
+    width: 100%;
+    padding: 1rem;
+    /* background-color: aqua; */
+
+}
+
+.secondUniq .unq_head_text img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+
+.recent_body {
+    width: 90%;
+    height: auto;
+    background-color: #2A65DB;
+    margin: auto;
+    padding: 1rem;
+}
+
+.recent_img {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    margin: auto;
+}
+
+.recent_img img {
+    width: 100%;
+}
+
+.recent_textbody {
+    width: 100%;
+    height: auto;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.recent_textbody :is(h6) {
+    font-weight: bolder;
+    font-size: 18px;
+    color: white;
+}
+
+.recent_text1 {
+    width: 250px;
+    height: auto;
+    /* background-color: darkmagenta; */
+}
+
+.recent_text2 {
+    width: 160px;
+    height: auto;
+    /* background-color: fuchsia; */
+}
+
+.stayConnected_body {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.stayConnected_head {
+    width: 100%;
+    height: auto;
+    /* background-color: firebrick; */
+    padding: 1rem;
+    text-align: center;
+}
+
+.stayConnected_body :is(h1) {
+    font-style: italic;
+}
+
+.stayConnected_body :is(h1, p) {
+    font-family: "Lato", sans-serif;
+}
+
+.stayConnected_inputbody {
+    width: 100%;
+    height: auto;
+    /* background-color: rebeccapurple; */
+
+}
+
+.stayConnected_input {
+    width: 100%;
+    height: auto;
+    /* background-color: chocolate; */
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.stayConnected_inputbody .find_input {
+    width: 47%;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    /* background-color: yellow; */
+
+}
+
+.stayConnected_inputbody :is(input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    input[type="number"]) {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.stayConnected_inputbody .find_input img {
+    margin-top: 5px;
+}
+
+.stayConnected_input .login_input_body .col-3 {
+    /* background-color: orange; */
+    width: 100%;
+}
+
+.stayConnected_inputbody .getCode {
+    width: 170px;
+}
+
+.favCode_body {
+    width: 100%;
+    height: 500px;
+    /* background-color: yellow; */
+}
+
+.favhead_text_body {
+    width: 100%;
+    height: auto;
+    /* background-color: darkblue; */
+    padding: 2rem;
+}
+
+.favhead_text {
+    width: 100%;
+    height: auto;
+    /* background-color: springgreen; */
+    display: flex;
+}
+
+.favhead_text h3 {
+    font-family: "Lato", sans-serif;
+}
+
+.favContent_body {
+    width: 100%;
+    height: auto;
+    /* background-color: darkmagenta; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favContent_body .recent_body {
+    margin-top: 0;
+    width: 330px;
+}
+
+.favContent_body .recent_text2 {
+    width: 200px;
+    height: auto;
+    /* background-color: green; */
+}
+
+.favContent_body .recent_body h6 {
+    font-size: 15px;
+}
+
+/* ===================== ADD MORE =================================== */
+.addmoreunq_body {
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    /* background-color: red; */
+}
+
+.addMoreUnq_mainbody {
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+}
+
+.addMoreUnq_text_body {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+    /* background-color: #083183; */
+}
+
+.addMoreUnq_text_body h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.addMoreunq_input_body {
+    width: 100%;
+    height: auto;
+    /* background-color: darkviolet; */
+}
+
+.addMoreunq_input_mainbody {
+    width: 100%;
+    height: auto;
+    /* background-color: chocolate; */
+}
+
+.moreUnq_input {
+    width: 90%;
+    height: auto;
+    /* background-color: brown; */
+    padding: 1rem 0 2rem 0;
+    margin: auto;
+}
+
+.effect-22 {
+    border: 0;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    position: relative;
+    background: transparent;
+}
+
+.effect-22~.focus-bg {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: transparent;
+    transition: 0.4s;
+    z-index: -1;
+}
+
+.effect-22:focus~.focus-bg,
+.has-content.effect-22~.focus-bg {
+    transition: 0.4s;
+    width: 97.7%;
+    background-color: #ededed;
+}
+.two_input .effect-22:focus~.focus-bg,
+.has-content.effect-22~.focus-bg {
+    transition: 0.4s;
+    width: 94.7%;
+    background-color: #ededed;
+}
+.effect-22~label {
+    position: absolute;
+    left: 14px;
+    width: 100%;
+    top: 10px;
+    color: #aaa;
+    transition: 0.3s;
+    z-index: -1;
+    letter-spacing: 0.5px;
+}
+
+.effect-22:focus~label,
+.has-content.effect-22~label {
+    top: -18px;
+    left: 0;
+    font-size: 12px;
+    color: #333;
+    transition: 0.3s;
+}
+.moreUnq_input :is(input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"])
+ {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    height: 45px;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+
+.moreUnq_input .login_input_body {
+    width: 100%;
+    height: auto;
+    /* background-color: rgb(11, 184, 147); */
+    padding: .6rem 0 .4rem 0;
+}
+
+.moreUnq_input .login_input_body .col-3 {
+    width: 100%;
+    position: relative;
+    /* background-color: cornflowerblue; */
+}
+.two_input{
+    width: 45%;
+    height: auto;
+    padding-top: 1rem;
+}
+
+.moreUnq_input .Input_name{
+    padding-left: 1rem;
+}
+.moreUnq_input .Input_name p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* padding-left: 1rem; */
+}
+
+
+.moreUnq_input .login_input_body2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+     /* background-color: chocolate; */
+     padding: 1rem 0;
+}
+.moreUnq_input .getCode{
+    width: 90px;
+}
+/* ================ Favourite ========================= */
+.favbackground_body_img{
+    width: 100%;
+    height: 484px;
+    /* background-position: center; */
+    background-size: cover;
+
+}
+.favDirection_body{
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+}
+.favDirection{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+.DirectfavShare{
+    width: 100%;
+    height: auto;
+    background-color: #2A65DB;
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 0;
+}
+.DirectShare{
+    width: 180px;
+    height: auto;
+    padding: 1rem 0 .3rem 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
+.DirectShare p{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.DirectShare:hover :is(p, i){
+    color: #2A65DB;
+}
+.DirectShare i{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: center;
+}
+.text_fav_body{
+    width: 100%;
+    height: auto;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.text_fav{
+    width: 30%;
+    height: auto;
+    /* background-color: hotpink; */
+    padding: 1rem;
+}
+.inner_fav_text{
+    width: 300px;
+    height: auto;
+    /* background-color: honeydew; */
+    display: flex;
+}
+.inner_fav_text i{
+    font-size: 30px;
+    margin: 8px 0 0 8px;
+}
+.text_fav p{
+    margin-top: 19px;
+}
+.requestCustomCode_body{
+    width: 35%;
+    height: auto;
+    /* background-color: khaki; */
+    padding: 1rem 0 0 2rem;
+}
+.requestCustomCode{
+    width:280px;
+    height: auto;
+    padding: .8rem 1rem .2rem 1rem;
+    background-color: #2A65DB;
+    transition: .2 ease-in;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 7px;
+}
+.requestCustomCode p{
+    color: white;
+}
+.requestCustomCode:hover{
+    background-color: white;
+    transition: .2 ease-out;
+    box-shadow: 4px 2px 20px 1px rgba(0, 0, 0, 0.281);
+    
+}
+.requestCustomCode:hover p{
+    color: black;
+}

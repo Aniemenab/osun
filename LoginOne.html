@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/LoginOne/login.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login_main_body">
+        <div class="login_body">
+            <div class="login_info">
+                <div class="login_info_top_text">
+                    <div class="login_info_text">
+                        <div>
+                            <h3>Welcome </h3>
+                        </div>
+                        <div class="wave_img">
+                            <img src="./img/Login/wavehand.png" alt="">
+                        </div>
+                    </div>
+                    <div class="login_info_text_bottom">
+                        <p>Please login to continue</p>
+                    </div>
+                </div>
+                <div class="login_input_main_body">
+                    <form action="">
+                        <div class="login_input_body">
+                            <div class="col-3 input-effect">
+                                <input class="effect-22" type="email" placeholder="">
+                                <label>Email</label>
+                                <span class="focus-bg"></span>
+                            </div>
+                            <div class="col-3 input-effect up">
+                                <input class="effect-22" type="password" placeholder="">
+                                <label>Password</label>
+                                <span class="focus-bg"></span>
+                            </div>
+                            <div class="login_button_body">
+                                <a href="./LoginTwo.html">
+                                    <div class="login_botton">
+                                        <h3>Login</h3>
+                                    </div>
+                                </a>
+                                
+                                <div class="forgot_body">
+                                    <a href="">
+                                        <p>Forgot Password ?</p>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                    <div class="login_other_means_body">
+                        <div class="login_other_means">
+                            <div class="means">
+                                <div class="mean_img">
+                                    <img src="img/Login/google (1).png" alt="">
+                                </div>
+                                <div class="means_text">
+                                    <h3>Continue with Google</h3>
+                                </div>
+                            </div>
+                            <div class="means up">
+                                <div class="mean_img">
+                                    <img src="img/Login/facebook.png" alt="">
+                                </div>
+                                <div class="means_text">
+                                    <h3>Continue with Facebook</h3>
+                                </div>
+                            </div>
+                            <div class="means up">
+                                <div class="mean_img">
+                                    <img src="img/Login/twitter.png" alt="">
+                                </div>
+                                <div class="means_text">
+                                    <h3>Continue with Twitter</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sign_up_body">
+                            <div class="sign_up">
+                                <a href="">
+                                    <p>Sign Up</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="login_img">
+                <img src="./img/Login/building.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    // JavaScript for label effects only
+    $(window).load(function () {
+        $(".col-3 input").val("");
+
+        $(".input-effect input").focusout(function () {
+            if ($(this).val() != "") {
+                $(this).addClass("has-content");
+            } else {
+                $(this).removeClass("has-content");
+            }
+        })
+    });
+</script>
+
+</html>
